@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Demon Slayer</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Oxanium:wght@300;400;700&amp;display=swap"
+      rel="stylesheet"
+    />
+
+    <link rel="stylesheet" href="./src/css/reset.css" />
+    <link rel="stylesheet" href="./src/css/estilo.css" />
+    <link rel="stylesheet" href="./src/css/responsivo.css" />
+  </head>
+  <body>
+    <header class="cabecalho">
+      <img
+        class="logo"
+        src="./src/imagens/images-removebg-preview.png"
+        alt="Logo Slayer"
+      />
+    </header>
+
+    <main class="selecao-de-personagens">
+      <section class="personagens">
+        <h1 class="titulo">Selecione um personagem</h1>
+        <ul class="lista-de-personagens">
+          <li
+            class="personagem selecionado"
+            id="zenitsu"
+            data-name="Zenitsu"
+            data-description="Respiração do Trovão: Zenitsu é um mestre da técnica de Respiração do Trovão, uma forma de arte marcial que concede a ele força e velocidade sobre-humanas. Essa técnica permite que ele execute movimentos rápidos e precisos, combinados com ataques poderosos."
+          >
+            <img
+              src="./src/imagens/card-zenitsu.jpg"
+              alt="Personagem Zenitsu"
+            />
+          </li>
+          <li
+            class="personagem"
+            id="tanjiro"
+            data-name="Tanjiro"
+            data-description="Respiração da Água: Tanjiro é um mestre da técnica de Respiração da Água, uma forma de arte marcial que lhe concede força, velocidade e resistência sobre-humanas. Tanjiro também aprendeu a dança tradicional Hinokami Kagura, uma técnica transmitida por sua família. Essa dança lhe concede habilidades de combate únicas, aumentando sua força e velocidade.  "
+          >
+            <img
+              src="./src/imagens/card-tanjiro.jpg"
+              alt="Personagem Tanjiro"
+            />
+          </li>
+
+          <li
+            class="personagem"
+            id="inosuke"
+            data-name="Inosuke"
+            data-description="Respiração da Besta: Inosuke é um usuário da técnica de Respiração da Besta, uma forma de arte marcial que combina movimentos selvagens e poderosos. Essa técnica lhe confere força, velocidade e agilidade excepcionais, permitindo que ele execute ataques ferozes e rápidos contra os demônios."
+          >
+            <img
+              src="./src/imagens/card-inosuke.jpg"
+              alt="Personagem Inosuke"
+            />
+          </li>
+
+          <li
+            class="personagem"
+            id="nezuko"
+            data-name="Nezuko"
+            data-description="Sangue de Demônio: Como um demônio, Nezuko possui várias habilidades únicas. Ela possui força sobre-humana, velocidade aumentada e regeneração acelerada, o que lhe permite se recuperar rapidamente de ferimentos."
+          >
+            <img src="./src/imagens/card-nezuko.jpg" alt="Personagem Nezuko" />
+          </li>
+
+          <li
+            class="personagem"
+            id="rengoku"
+            data-name="Rengoku"
+            data-description="Respiração da Chama: Rengoku é um mestre da técnica de Respiração da Chama, uma forma de arte marcial que utiliza ataques baseados em chamas. Essa técnica lhe confere uma força avassaladora e a capacidade de produzir chamas poderosas, que podem incinerar os demônios e aumentar a eficácia de seus ataques."
+          >
+            <img
+              src="./src/imagens/card-rengoku.jpg"
+              alt="Personagem Rengoku"
+            />
+          </li>
+
+          <li
+            class="personagem"
+            id="uzui"
+            data-name="Uzui"
+            data-description="Respiração do Som: Tengen é um mestre da técnica de Respiração do Som, uma forma de arte marcial que combina movimentos ágeis e ataques baseados em ondas sonoras. Essa técnica permite que ele se mova rapidamente e ataque os demônios com ondas sonoras poderosas, capazes de causar danos significativos."
+          >
+            <img src="./src/imagens/card-uzui.jpg" alt="Personagem Uzui" />
+          </li>
+
+          <li
+            class="personagem"
+            id="genya"
+            data-name="Genya"
+            data-description="Fisiologia Híbrida: Genya possui uma fisiologia especial como resultado de ser meio humano, meio demônio. Ele tem habilidades de cura acelerada, regeneração e força sobre-humana. Sua natureza híbrida o torna uma força formidável em combate."
+          >
+            <img src="./src/imagens/card-genya.jpg" alt="Personagem Genya" />
+          </li>
+
+          <li
+            class="personagem"
+            id="giyu"
+            data-name="Giyu"
+            data-description="Técnica de Respiração da Água: Muichiro é um usuário da Respiração da Água, um estilo de luta que imita os movimentos e características da água. Essa técnica permite a ele atacar com movimentos fluidos e rápidos, além de conceder maior poder de corte e agilidade. A Respiração da Água é conhecida por sua eficácia em combater demônios."
+          >
+            <img src="./src/imagens/card-giyu.jpg" alt="Personagem Giyu" />
+          </li>
+
+          <li
+            class="personagem"
+            id="shinobu"
+            data-name="Shinobu"
+            data-description="Técnica de Respiração Inseto: Shinobu é uma usuária da Respiração Inseto, um estilo de luta que permite aos espadachins imitar os movimentos e características dos insetos. Essa técnica concede a ela velocidade, agilidade e reflexos aprimorados, tornando-a uma adversária difícil de acertar e permitindo que ela reaja rapidamente aos ataques dos demônios."
+          >
+            <img
+              src="./src/imagens/card-shinobu.jpg"
+              alt="Personagem Shinobu"
+            />
+          </li>
+
+          <li
+            class="personagem"
+            id="muchiro"
+            data-name="Muichiro"
+            data-description="Técnica Respiração da Névoa: ela é derivada da Respiração do Vento. Quase todos os ataques desta respiração consistem em usar ataques rápidos e movimentos ocultos, para confundir e desorientar o adversário."
+          >
+            <img
+              src="./src/imagens/card-muchiro.jpg"
+              alt="Personagem Muchiro"
+            />
+          </li>
+
+          <li
+            class="personagem"
+            id="muzan"
+            data-name="Muzan"
+            data-description="Controle de Demônios: Muzan tem o poder de criar e controlar outros demônios. Ele pode conceder habilidades especiais a eles, como técnicas de respiração e habilidades únicas de combate. Ele é capaz de controlar mentalmente os demônios que cria, tornando-os obedientes aos seus comandos."
+          >
+            <img src="./src/imagens/card-muzan.jpg" alt="Personagem Muzan" />
+          </li>
+        </ul>
+      </section>
+      <section class="personagem-selecionado">
+        <img
+          class="personagem-grande"
+          src="./src/imagens/card-zenitsu.png"
+          alt="Personagem Selecionado"
+        />
+
+        <div class="informacoes-personagem">
+          <h2 class="nome-personagem" id="nome-personagem">Zenitsu</h2>
+          <p class="descricao-personagem" id="descricao-personagem">
+            Respiração do Trovão: Zenitsu é um mestre da técnica de Respiração
+            do Trovão, uma forma de arte marcial que concede a ele força e
+            velocidade sobre-humanas. Essa técnica permite que ele execute
+            movimentos rápidos e precisos, combinados com ataques poderosos.
+          </p>
+        </div>
+      </section>
+    </main>
+    <script src="./src/js/index.js"></script>
+  </body>
+</html>
